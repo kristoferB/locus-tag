@@ -14,6 +14,8 @@ const FAMILY_MAPPING: &[(&str, &str, usize)] = &[
     ("AprilTag36h11", "dict_apriltag_36h11", 6),
     ("ArUco4x4_50", "dict_4x4_50", 4),
     ("ArUco4x4_100", "dict_4x4_100", 4),
+    ("ArUco4x4_250", "dict_4x4_250", 4),
+    ("ArUco4x4_1000", "dict_4x4_1000", 4),
     ("ArUco6x6_250", "dict_6x6_250", 6),
 ];
 

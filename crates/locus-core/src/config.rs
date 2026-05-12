@@ -876,6 +876,10 @@ pub enum TagFamily {
     ArUco4x4_50,
     /// ArUco 4x4_100 dictionary.
     ArUco4x4_100,
+    /// ArUco 4x4_250 dictionary.
+    ArUco4x4_250,
+    /// ArUco 4x4_1000 dictionary.
+    ArUco4x4_1000,
     /// ArUco 6x6_250 dictionary.
     ArUco6x6_250,
 }
@@ -889,6 +893,8 @@ impl TagFamily {
             TagFamily::AprilTag36h11,
             TagFamily::ArUco4x4_50,
             TagFamily::ArUco4x4_100,
+            TagFamily::ArUco4x4_250,
+            TagFamily::ArUco4x4_1000,
             TagFamily::ArUco6x6_250,
         ]
     }

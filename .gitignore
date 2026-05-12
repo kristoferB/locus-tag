@@ -7,3 +7,4 @@ tests/data
 /conductor/tracks/
 *.tracy
 .claude/settings.local.json
+/target/
